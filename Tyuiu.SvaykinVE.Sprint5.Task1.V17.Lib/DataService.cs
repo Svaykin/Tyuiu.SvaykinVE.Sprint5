@@ -13,6 +13,7 @@ namespace Tyuiu.SvaykinVE.Sprint5.Task1.V17.Lib
             string strY;
             for (int x = startValue; x <= stopValue; x++)
             {
+                strY = null;
                 y = Math.Round((2*x - 4 + ((2*x-1)/(Math.Sin(x)+1))), 2);
                 if ((Math.Sin(x) + 1)==0)
                 { y = 0; }
@@ -21,7 +22,6 @@ namespace Tyuiu.SvaykinVE.Sprint5.Task1.V17.Lib
                 { File.AppendAllText(path, strY + Environment.NewLine); }
                 else;
                 { File.AppendAllText(path, strY); }
-                strY = null ;
             }
             return path;
         }
