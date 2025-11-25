@@ -21,6 +21,7 @@ namespace Tyuiu.SvaykinVE.Sprint5.Task1.V17.Lib
                 { File.AppendAllText(path, strY + Environment.NewLine); }
                 else;
                 { File.AppendAllText(path, strY); }
+                strY = null ;
             }
             return path;
         }
