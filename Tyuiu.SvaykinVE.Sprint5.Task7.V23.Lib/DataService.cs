@@ -27,7 +27,6 @@ namespace Tyuiu.SvaykinVE.Sprint5.Task7.V23.Lib
                     {
                         if (!((line[i] >= 'А' && line[i] <= 'Я') || (line[i] >= 'а' && line[i] <= 'я') || line[i] == 'ё' || line[i] == 'Ё'))
                         {
-                            if (line[i] == '.')
                             res = res + line[i];
                         }
                     }
