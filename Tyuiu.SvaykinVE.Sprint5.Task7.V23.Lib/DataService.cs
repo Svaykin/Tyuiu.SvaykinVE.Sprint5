@@ -30,7 +30,7 @@ namespace Tyuiu.SvaykinVE.Sprint5.Task7.V23.Lib
                             res = res + line[i];
                         }
                     }
-                    res = res.Replace(" .", ".");
+                    res = res.Replace("   .", ".");
                     File.AppendAllText(pathf, res);
                     res = "";
                 }
