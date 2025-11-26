@@ -31,7 +31,6 @@ namespace Tyuiu.SvaykinVE.Sprint5.Task7.V23.Lib
                         }
                     }
                     File.AppendAllText(pathf, res);
-                    res = "";
                 }
             }
             return (pathf);
